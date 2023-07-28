@@ -1,0 +1,20 @@
+{
+  "name": "joe.db",
+  "version": "1.0.0",
+  "description": "joe.db is a lightweight Node.js library for simple local database operations with JSON files. Organize, manage, and manipulate data easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsusif/joe.db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsusif/joe.db/issues"
+  },
+  "homepage": "https://github.com/itsusif/joe.db#readme"
+}
