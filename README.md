@@ -1,6 +1,6 @@
-## What is go.db ?
+## What is good.db ?
 
-- go.db is a lightweight and easy-to-use Node.js library that enables developers to work with JSON files as a simple local database. It allows you to perform various database-like operations, such as setting, getting, adding, deleting, pushing, and pulling data from a JSON file.
+- good.db is a lightweight and easy-to-use Node.js library that enables developers to work with JSON files as a simple local database. It allows you to perform various database-like operations, such as setting, getting, adding, deleting, pushing, and pulling data from a JSON file.
 
 
 
@@ -10,7 +10,7 @@
 
 ```shell
 
-npm install go.db
+npm install good.db
 
 ```
 
@@ -26,7 +26,7 @@ npm install go.db
 
 ```js
 
-const { DataBaseJSON } = require("go.db");
+const { DataBaseJSON } = require("good.db");
 
 const db = new DataBaseJSON('database.json', true, '..') // ("DATABASE_FILE", if you wanted enable/disable nested(..), if you wanted change separator default (..))
 ```
