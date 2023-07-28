@@ -152,15 +152,15 @@ db.has('key'); // To Get True Or False
 
 db.has('key'); // => true
 
-db.hsd(`key..number..m`, false) // => false
+db.has(`key..number..m`, false) // => false
 
-db.delete(`key.age.n`, true, '.') // => false
+db.has(`key.age.n`, true, '.') // => false
 
-db.delete(`key..name`) // => true
+db.has(`key..name`) // => true
 
-db.delete(`key..array`); // => true
+db.has(`key..array`); // => true
 
-db.delete(`key..other..work`) // => true
+db.has(`key..other..work`) // => true
 ```
 
 
