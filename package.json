@@ -1,20 +1,30 @@
 {
-  "name": "joe.db",
-  "version": "1.0.0",
-  "description": "joe.db is a lightweight Node.js library for simple local database operations with JSON files. Organize, manage, and manipulate data easily.",
-  "main": "index.js",
+  "name": "good.db",
+  "version": "1.5.0-dev.1692456087.0",
+  "description": "JSON file local database manipulation in Node.js.",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itsusif/joe.db.git"
+    "url": "https://github.com/itsusif/good.db.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "database",
+    "good.db",
+    "json",
+    "best.db",
+    "wio.db",
+    "pro.db",
+    "db"
+  ],
+  "author": "Discord username: \"u.si\"",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/itsusif/joe.db/issues"
+  "dependencies": {
+    "fs": "^0.0.1-security"
   },
-  "homepage": "https://github.com/itsusif/joe.db#readme"
+  "devDependencies": {
+    "@types/node": "^20.5.1"
+  }
 }
