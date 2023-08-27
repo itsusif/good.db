@@ -22,7 +22,7 @@
   "author": "Discord username: \"u.si\"",
   "license": "ISC",
   "dependencies": {
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.2"
   },
   "devDependencies": {
     "@types/node": "^20.5.1"
